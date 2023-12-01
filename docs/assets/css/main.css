@@ -55,6 +55,7 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -97,6 +98,9 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	#logo > img {
+		display: none;
+	}
 	body, input, select, textarea {
 		color: #474747;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -484,6 +488,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
+			#logo > img { display: inline-block; }
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -729,6 +734,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			#logo > img { display: inline-block; }
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1218,7 +1224,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 840px) {
-
+			#titleBar img { display: none; }
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1463,7 +1469,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			#titleBar img { display: none; }
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1709,6 +1715,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			#titleBar img { display: none; }
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2674,7 +2681,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner-3.png");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
